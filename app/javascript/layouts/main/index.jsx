@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-import Box from '@mui/material/Box';
+import Box from "@mui/material/Box";
 
-import Header from './header';
-import Footer from './footer';
-import { HEADER } from '../config-layout';
+import Header from "./header";
+import Footer from "./footer";
+import { HEADER } from "../config-layout";
 
 // ----------------------------------------------------------------------
 
@@ -19,8 +19,8 @@ export default function MainLayout({
     <Box
       sx={{
         height: 1,
-        display: 'flex',
-        flexDirection: 'column',
+        display: "flex",
+        flexDirection: "column",
         ...sx,
       }}
       {...other}

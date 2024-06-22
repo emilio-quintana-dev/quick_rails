@@ -1,45 +1,56 @@
-import { useScroll } from 'framer-motion';
+import {
+  _brands,
+  _members,
+  _caseStudies,
+  _testimonials,
+  _marketingPosts,
+  _pricingMarketing,
+} from "~/_mock";
 
-import { _pricingHome } from '~/_mock';
-
-import ScrollProgress from '~/components/scroll-progress';
-
-import HomeHero from '../home-hero';
-import HomeFAQs from '../home-faqs';
-import HomeNewStart from '../home-new-start';
-import HomeCombination from '../home-combination';
-import HomeForDesigner from '../home-for-designer';
-import HomeAdvertisement from '../home-advertisement';
-import PricingHome from '../../pricing/home/pricing-home';
-import HomeFeatureHighlights from '../home-feature-highlights';
-import HomeFlexibleComponents from '../home-flexible-components';
+import MarketingTeam from "../team/marketing-team";
+import MarketingNewsletter from "../marketing-newsletter";
+import MarketingOurClients from "../marketing-our-clients";
+import MarketingLandingHero from "../landing/marketing-landing-hero";
+import MarketingLandingFaqs from "../landing/marketing-landing-faqs";
+import MarketingLandingAbout from "../landing/marketing-landing-about";
+import MarketingTestimonial from "../testimonial/marketing-testimonial";
+import PricingMarketing from "../../pricing/marketing/pricing-marketing";
+import MarketingLandingProcess from "../landing/marketing-landing-process";
+import MarketingLandingFreeSEO from "../landing/marketing-landing-free-seo";
+import MarketingLandingServices from "../landing/marketing-landing-services";
+import BlogMarketingLatestPosts from "../../blog/marketing/marketing-latest-posts";
+import MarketingLandingCaseStudies from "../landing/marketing-landing-case-studies";
 
 // ----------------------------------------------------------------------
 
 export default function HomeView() {
-  const { scrollYProgress } = useScroll();
-
   return (
     <>
-      <ScrollProgress scrollYProgress={scrollYProgress} />
+      <MarketingLandingHero />
 
-      <HomeHero />
+      <MarketingOurClients brands={_brands} />
 
-      <HomeNewStart />
+      <MarketingLandingAbout />
 
-      <HomeFlexibleComponents />
+      <MarketingLandingServices />
 
-      <HomeFeatureHighlights />
+      <MarketingLandingProcess />
 
-      <HomeForDesigner />
+      <MarketingLandingCaseStudies caseStudies={_caseStudies.slice(-6)} />
 
-      <PricingHome plans={_pricingHome} />
+      <MarketingTeam members={_members} />
 
-      <HomeFAQs />
+      <PricingMarketing plans={_pricingMarketing} />
 
-      <HomeCombination />
+      <MarketingLandingFaqs />
 
-      <HomeAdvertisement />
+      <MarketingTestimonial testimonials={_testimonials} />
+
+      <BlogMarketingLatestPosts posts={_marketingPosts.slice(0, 4)} />
+
+      <MarketingLandingFreeSEO />
+
+      <MarketingNewsletter />
     </>
   );
 }

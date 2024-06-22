@@ -1,6 +1,6 @@
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 
-import HomeView from '~/sections/_home/view/home-view';
+import HomeView from "~/sections/_marketing/view/marketing-landing-view";
 
 // ----------------------------------------------------------------------
 
