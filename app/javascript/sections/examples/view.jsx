@@ -24,7 +24,6 @@ const ITEMS = [
   { title: 'Navigation Bar', path: paths.components.navigation },
   { title: 'Scroll', path: paths.components.scroll },
   { title: 'Scroll Progress', path: paths.components.scrollProgress },
-  { title: 'Player', path: paths.components.player },
   { title: 'Text Max Line', path: paths.components.textMaxLine },
 ];
 
