@@ -11,7 +11,6 @@ import { useResponsive } from "~/hooks/use-responsive";
 
 import { bgGradient } from "~/theme/css";
 
-import Image from "~/components/image";
 import Iconify from "~/components/iconify";
 
 // ----------------------------------------------------------------------
@@ -92,12 +91,6 @@ export default function MarketingLandingHero() {
 
           {mdUp && (
             <Grid xs={12} md={6} lg={5}>
-              <Image
-                visibleByDefault
-                disabledEffect
-                alt="marketing market"
-                src="/assets/illustrations/illustration_marketing_market.svg"
-              />
             </Grid>
           )}
         </Grid>

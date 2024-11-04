@@ -1,6 +1,6 @@
 {
   "name": "quick_rails",
-  "autor": "Llapingacho",
+  "author": "Llapingacho",
   "private": true,
   "license": "MIT",
   "type": "module",
@@ -18,18 +18,18 @@
     "dev:host": "vite --host"
   },
   "dependencies": {
-    "@hotwired/turbo": "^7.3.0",
-    "@mui/icons-material": "^5.15.20",
-    "@rails/activestorage": "^7.0.4",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.3.2",
+    "@hotwired/turbo": "^7.3.0",
     "@iconify/react": "^4.1.1",
+    "@mui/icons-material": "^5.15.20",
     "@mui/lab": "^5.0.0-alpha.155",
     "@mui/material": "^5.14.20",
     "@mui/system": "^5.14.20",
     "@mui/x-date-pickers": "^6.18.4",
+    "@rails/activestorage": "^7.0.4",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.16.16",
     "google-map-react": "^2.2.1",
@@ -69,11 +69,11 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "^3.1.1",
-    "typescript": "^5.3.3",
-    "vite-plugin-checker": "^0.6.2",
     "sass": "^1.62.1",
+    "typescript": "^5.3.3",
     "vite": "^5.0.0",
+    "vite-plugin-checker": "^0.6.2",
     "vite-plugin-rails": "^0.1.0",
-    "vite-plugin-ruby": "^5.0.0"
+    "vite-plugin-ruby": "^5.1.0"
   }
 }

@@ -43,8 +43,4 @@ export const pageLinks = [
 ];
 
 export const navConfig = [
-  { title: "Home", path: "/" },
-  { title: "Pricing", path: "#pricing" }, // Fix this
-  { title: "Demo", path: "#demo" }, // Fix this
-  { title: "Testimonials", path: "#testimonials" }, // Fix this
 ];

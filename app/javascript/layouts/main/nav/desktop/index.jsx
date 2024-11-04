@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
 
 import NavList from "./nav-list";
 

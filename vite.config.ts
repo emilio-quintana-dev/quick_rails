@@ -4,4 +4,5 @@ import ReactPlugin from "@vitejs/plugin-react-swc";
 
 export default defineConfig({
   plugins: [Rails(), ReactPlugin()],
+  build: { sourcemap: false },
 });
