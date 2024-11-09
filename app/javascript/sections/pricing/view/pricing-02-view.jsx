@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 import { useResponsive } from '~/hooks/use-responsive';
 
-import { _pricing02 } from '~/_mock';
+import { _pricing } from '~/_mock';
 
 import Iconify from '~/components/iconify';
 

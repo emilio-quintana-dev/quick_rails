@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import ToggleButton, { toggleButtonClasses } from '@mui/material/ToggleButton';
 
-import { _pricing01 } from '~/_mock';
+import { _pricing } from '~/_mock';
 
 import PlanCard from '../01/pricing-01-card';
 
