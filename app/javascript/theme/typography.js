@@ -22,9 +22,8 @@ export function responsiveFontSizes({ sm, md, lg }) {
   };
 }
 
-export const primaryFont = "Public Sans, sans-serif";
-// export const secondaryFont = 'Barlow, sans-serif';
-export const secondaryFont = "Bricolage Grotesque, sans-serif";
+export const primaryFont = "Poppins, sans-serif";
+export const secondaryFont = "Poppins, sans-serif";
 
 // ----------------------------------------------------------------------
 
@@ -39,7 +38,7 @@ export const typography = {
     fontWeight: 700,
     lineHeight: 80 / 64,
     fontSize: pxToRem(40),
-    fontFamily: secondaryFont,
+    fontFamily: primaryFont,
     ...responsiveFontSizes({ sm: 52, md: 58, lg: 64 }),
   },
   h2: {

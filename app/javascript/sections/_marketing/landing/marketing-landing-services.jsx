@@ -20,27 +20,27 @@ const COLORS = ['primary', 'secondary', 'success', 'warning'];
 
 const SERVICES = [
   {
-    name: 'SEO',
+    name: 'Authentication',
     icon: '/assets/icons/service/ic_service_seo.svg',
-    content: 'Nunc nonummy metus. Donec elit libero',
+    content: 'Password and Magic Link login powered by Devise.',
     path: paths.marketing.services,
   },
   {
-    name: 'Email Marketing',
+    name: 'Payments',
     icon: '/assets/icons/service/ic_service_mail.svg',
-    content: 'Nunc nonummy metus. Donec elit libero',
+    content: 'Simple payment management with Stripe.',
     path: paths.marketing.services,
   },
   {
-    name: 'Search Engine Oprimization',
+    name: 'Emails',
     icon: '/assets/icons/service/ic_service_analysis.svg',
-    content: 'Nunc nonummy metus. Donec elit libero',
+    content: 'Easy email handling with Postmark.',
     path: paths.marketing.services,
   },
   {
-    name: 'Social Marketing',
+    name: 'File Storage',
     icon: '/assets/icons/service/ic_service_bullhorn.svg',
-    content: 'Nunc nonummy metus. Donec elit libero',
+    content: 'Store files using AWS S3 or locally.',
     path: paths.marketing.services,
   },
 ];
@@ -70,7 +70,7 @@ export default function MarketingLandingServices() {
         <Typography variant="h2">We Provide</Typography>
 
         <Typography sx={{ color: 'text.secondary' }}>
-          Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+          Cherry-picked their good features & added everything you need to build a modern SaaS
         </Typography>
       </Stack>
 

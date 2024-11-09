@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import Switch from '@mui/material/Switch';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
@@ -41,16 +40,7 @@ export default function PricingMarketing({ plans }) {
 
           <Typography sx={{ color: 'text.secondary' }}>
             Choose the perfect plan for your needs.
-            <br /> Always flexible to grow
           </Typography>
-        </Stack>
-
-        <Stack direction="row" alignItems="center">
-          <Typography variant="overline">MONTHLY</Typography>
-
-          <Switch defaultChecked />
-
-          <Typography variant="overline">YEARLY (save 10%)</Typography>
         </Stack>
       </Stack>
 

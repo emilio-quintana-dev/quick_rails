@@ -57,7 +57,7 @@ export default function MarketingLandingHero() {
             </Box>
 
             <Typography variant="h1" sx={{ my: 3 }}>
-              Ship your startup in days, not weeks
+              Ship your startup in days, not weeks.
             </Typography>
 
             <Typography sx={{ color: "text.secondary" }}>

@@ -36,7 +36,7 @@ export default function Header({ headerOnDark }) {
   const renderContent = (
     <>
       <Box sx={{ lineHeight: 0, position: "relative" }}>
-        <Logo />
+        <Logo single />
       </Box>
 
       <>

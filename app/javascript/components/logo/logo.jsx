@@ -37,7 +37,7 @@ function Logo({ single = false, sx }) {
     </svg>
   );
 
-  const fullLogo = <Typography variant="h4">QuickRails</Typography>;
+  const fullLogo = <Typography variant="h4">Quick</Typography>;
 
   return (
     <Link

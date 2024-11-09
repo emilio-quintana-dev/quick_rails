@@ -1,4 +1,4 @@
-import { _pricingMarketing } from "~/_mock";
+import { _pricing } from "~/_mock";
 
 import MarketingLandingHero from "../landing/marketing-landing-hero";
 import MarketingLandingFaqs from "../landing/marketing-landing-faqs";
@@ -14,7 +14,7 @@ export default function MarketingLandingView() {
 
       <MarketingLandingServices />
 
-      <PricingMarketing plans={_pricingMarketing} />
+      <PricingMarketing plans={_pricing} />
 
       <MarketingLandingFaqs />
     </>

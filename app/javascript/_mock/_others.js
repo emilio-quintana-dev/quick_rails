@@ -102,11 +102,10 @@ export const _brandsColor = BRANDS_NAME.map((brand, index) => ({
 // ----------------------------------------------------------------------
 
 export const _faqs = [
-  'Sed augue ipsum, egestas nec, vestibulum et',
-  'alesuada adipiscing, dui vestibulum suscipit nulla quis orci.',
-  'Ut varius tincidunt libero',
-  'In ut quam vitae odio lacinia tincidunt.',
-  'Fusce vel dui Morbi nec metus.',
+  'What do I get exactly?',
+  'How often is Quick Rails updated?',
+  'Can I get a refund?',
+  'Can I use Paypal?',
 ].map((question, index) => ({
   id: _mock.id(index),
   question,
