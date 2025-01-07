@@ -13,6 +13,8 @@ import { bgGradient } from "~/theme/css";
 
 import Iconify from "~/components/iconify";
 
+import backgroundImg from "~/assets/background/overlay_1.jpg"; // [BACK]
+
 // ----------------------------------------------------------------------
 
 export default function MarketingLandingHero() {
@@ -25,7 +27,7 @@ export default function MarketingLandingHero() {
       sx={{
         ...bgGradient({
           color: alpha(theme.palette.background.default, 0.9),
-          imgUrl: "/assets/background/overlay_1.jpg",
+          imgUrl: backgroundImg,
         }),
         overflow: "hidden",
       }}
