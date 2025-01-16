@@ -45,6 +45,8 @@ const StyledAppStoreButton = styled(Button)(({ theme }) => ({
 export default function Footer() {
   const mdUp = useResponsive("up", "md");
 
+  console.log("mdUp", mdUp);
+
   const pathname = usePathname();
 
   const mobileList = navConfig.find((i) => i.title === "Pages")?.children || [];
@@ -66,7 +68,7 @@ export default function Footer() {
         component="div"
         sx={{ color: "text.secondary" }}
       >
-        © 2024. All rights reserved
+        © 2025. All rights reserved
       </Typography>
     </Container>
   );

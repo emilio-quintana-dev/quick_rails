@@ -1,4 +1,0 @@
-Running both Rails Server and Vite Server locally:
-```bash
-foreman start -f Procfile.dev
-```bash

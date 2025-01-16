@@ -1,7 +1,0 @@
----
-6/5/2024
----
-Created base project with ViteRails.
-
-Next step:
-- Copy frontend files from https://github.com/ElMassimo/vite_ruby/tree/main/examples/rails/app/frontend
