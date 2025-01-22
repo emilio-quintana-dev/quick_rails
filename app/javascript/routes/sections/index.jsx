@@ -8,12 +8,11 @@ import { SplashScreen } from "~/components/loading-screen";
 import { authRoutes } from "./auth";
 import { errorRoutes } from "./error";
 import { commonRoutes } from "./common";
-import { marketingRoutes } from "./marketing";
 import { componentsRoutes } from "./components";
 
 // ----------------------------------------------------------------------
 
-const IndexPage = lazy(() => import("~/pages/home"));
+const HomePage = lazy(() => import("~/pages/home"));
 const SupportPage = lazy(() => import("~/pages/support"));
 
 // ----------------------------------------------------------------------
@@ -30,7 +29,7 @@ export default function Router() {
         {
           element: (
             <MainLayout disabledSpacing>
-              <IndexPage />
+              <HomePage />
             </MainLayout>
           ),
           index: true,
@@ -44,8 +43,6 @@ export default function Router() {
             </MainLayout>
           ),
         },
-
-        ...marketingRoutes,
 
         ...componentsRoutes,
 
